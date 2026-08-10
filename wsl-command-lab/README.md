@@ -23,7 +23,7 @@
 在 PowerShell 中，从仓库根目录执行：
 
 ```powershell
-.\wsl-command-lab\scripts\inspect-wsl.ps1 -Distro Ubuntu-24.04
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\wsl-command-lab\scripts\inspect-wsl.ps1 -Distro Ubuntu-24.04
 ```
 
 报告会写入 `wsl-command-lab/reports/`，保存可稳定读取的版本和发行版列表；`status` 与 `help` 会记录为命令提示，建议直接在 PowerShell 中执行以保留原生控制台编码。

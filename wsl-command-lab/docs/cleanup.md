@@ -38,7 +38,7 @@ Remove-Item -LiteralPath '.\wsl-command-lab\exports\ubuntu-24.04-lab.tar' -Force
 只有确认名称完全是 `WSL-Command-Lab-Temp` 后才能执行：
 
 ```powershell
-.\wsl-command-lab\scripts\cleanup-temp-distro.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\wsl-command-lab\scripts\cleanup-temp-distro.ps1
 ```
 
 等价的核心命令是：

@@ -1,3 +1,6 @@
 ﻿.env
 *.log
 Thumbs.db
+
+#Day03:local MySQL backup artifacts
+artifacts/day03-backups/
